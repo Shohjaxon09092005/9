@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Display", sans-serif;
+    scroll-behavior: smooth;
+}
+.container
+{
+    max-width: 1140px !important;
+    width: 100% !important;
+    margin:0 auto !important;
+    padding: 0 15px; 
+    /* border: 2px dashed red */
+    ;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+@media (max-width: 1300px)  {
+    [data-aos] {
+      opacity: 1 !important;
+      transform: none !important;
+      transition: none !important;
+    }
+  }
